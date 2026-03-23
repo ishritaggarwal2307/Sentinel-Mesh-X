@@ -37,13 +37,13 @@ The system transforms raw environmental data into real-time decisions, helping r
 
 ## 📸 Screenshots
 
-### 🧠 AI Command Center
+### 🧠 AI Command Center  
 ![Dashboard](./screenshots/dashboard.png)
 
-### 📊 Analytics
+### 📊 Analytics  
 ![Analytics](./screenshots/analytics.png)
 
-### ⚡ Pipeline Visualization
+### ⚡ Pipeline Visualization  
 ![Pipeline](./screenshots/pipeline.png)
 
 ---
@@ -81,7 +81,7 @@ The system is designed to integrate real-world APIs such as weather and satellit
 
 ## 🏆 What Makes It Unique
 
-- Not just monitoring → decision-making system  
+- Not just monitoring → **decision-making system**  
 - Real-time pipeline visualization  
 - Autonomous AI-driven actions  
 - Scalable architecture for smart cities  
