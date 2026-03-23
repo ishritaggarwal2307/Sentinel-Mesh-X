@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0b1220;
+  color: white;
+}
+
+/* 🔥 Cards */
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 224, 255, 0.2);
+  box-shadow: 0 0 20px rgba(0, 224, 255, 0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(0, 224, 255, 0.3);
+}
+
+/* 🔥 Grid */
+.grid {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* 🔥 Big Numbers */
+.big {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* 🔥 Danger Mode */
+.danger {
+  background: radial-gradient(circle, rgba(255, 0, 0, 0.15), transparent);
+}
+
+/* 🔥 Glow Animation */
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 10px #00E0FF; }
+  50% { box-shadow: 0 0 25px #00E0FF; }
+  100% { box-shadow: 0 0 10px #00E0FF; }
+}
+
+.glow {
+  animation: pulseGlow 2s infinite;
+}
+
+/* 🔥 Fade Animation */
+.fade-in {
+  animation: fade 0.8s ease-in;
+}
+
+@keyframes fade {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
