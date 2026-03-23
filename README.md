@@ -105,3 +105,10 @@ The system is designed to integrate real-world APIs such as weather and satellit
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
+
+### Backend
+
+```bash
+cd frontend
+npm install
+npm start
